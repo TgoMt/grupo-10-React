@@ -1,10 +1,10 @@
 import React from 'react'
 import { Link, Route, Switch } from 'react-router-dom';
 
-function Products() {
+function Categories() {
   return (
-    <div>Products</div>
+    <div>Categories</div>
   )
 }
 
-export default Products
+export default Categories

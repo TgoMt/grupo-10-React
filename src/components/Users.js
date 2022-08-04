@@ -1,10 +1,10 @@
 import React from 'react'
 import { Link, Route, Switch } from 'react-router-dom';
 
-function Products() {
+function Users() {
   return (
-    <div>Products</div>
+    <div>Users</div>
   )
 }
 
-export default Products
+export default Users
