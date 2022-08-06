@@ -15,7 +15,7 @@ function Users() {
         const apiUsers = await fetch("api/users")
         const users = await apiUsers.json()
         setUsers(users.total)//ACA LLAMAMOS A DATA SI ES QUE QUEREMOS INGRESAR A LA DATA !IMPORTANTE¡, en este caso queremos ingresar al total
-        console.log(users.data)
+        /* console.log(users.data) */
 
     }
 

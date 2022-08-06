@@ -26,8 +26,9 @@ function Home() {
 
         <body>
           <div className='panels'>
-            <Products />
+            
             <Categories />
+            <Products />
             <Users />
           </div>
         </body>

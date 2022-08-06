@@ -1,17 +1,41 @@
-import React from 'react'
-/* import { Link, Route, Switch } from 'react-router-dom'; */
+import React, { useEffect, useState } from 'react'
 
-function Categories(props){
-  
-  return(
-    <React.Fragment>
-      <div className='panels'>
-    {/* <div className='panelsTitle'>Categories</div> */}
-    <div>Categories : {props.total} </div>
-    </div>
-    </React.Fragment>
-      
-  )
+function Categories() {
+   
+    const [categories, setCategories] = useState([])
+    useEffect(() => {
+        getDataCategories()
+
+    }, [])
+
+    const getDataCategories = async () => {
+        const apiProductsCategories = await fetch("api/products")
+        const categories = await apiProductsCategories.json()
+        setCategories(categories.countByCategory)//ACA LLAMAMOS A DATA SI ES QUE QUEREMOS INGRESAR A LA DATA !IMPORTANTE¡, en este caso queremos ingresar al total
+        /* console.log(categories.countByCategory) */
+
+    }
+
+    return (
+        <React.Fragment>
+            <div className='panels'>
+            <div className='panelsTitle'>Categories : {categories.length}</div>
+                <div>
+                    
+                    <ul>
+                        {/* {
+                            users.map((item, i) => {
+                                return <li><Categories {...item} key={i}/></li>
+                            })
+                        } */}
+                    </ul>
+                </div>
+            </div>
+        </React.Fragment>
+    )
 }
 
 export default Categories
+    
+    
+    
