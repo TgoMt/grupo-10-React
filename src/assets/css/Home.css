@@ -1,0 +1,14 @@
+.panels{
+    display: flex;
+    justify-content: space-evenly;
+}
+.panelsTitle{
+    border: solid 1px black;
+}
+.logo{
+    text-align: center;
+}
+.logo img{
+    width: 30%;
+    
+}
