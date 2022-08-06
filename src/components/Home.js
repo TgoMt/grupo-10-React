@@ -32,9 +32,9 @@ function Home() {
           </div>
         </body>
       </div>
-      <Routes>
+      {/* <Routes>
       <Route path='/' element={<Header/>} />
-      </Routes>
+      </Routes> */}
 
     </React.Fragment>
   );

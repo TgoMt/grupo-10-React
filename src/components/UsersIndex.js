@@ -3,7 +3,7 @@ import React from 'react'
 
 function UsersIndex(props){
   return(
-      <div>Functiona </div>
+      <div>Functiona {props.title} </div>
       
   )
 }

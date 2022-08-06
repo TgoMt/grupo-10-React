@@ -2,10 +2,12 @@ import React from 'react'
 /* import { Link, Route, Switch } from 'react-router-dom'; */
 
 function Categories(props){
+  
   return(
     <React.Fragment>
       <div className='panels'>
-    <div className='panelsTitle'>Categories</div>
+    {/* <div className='panelsTitle'>Categories</div> */}
+    <div>Categories : {props.total} </div>
     </div>
     </React.Fragment>
       
