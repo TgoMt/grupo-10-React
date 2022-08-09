@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 
-function Categories(props) {
+function Categories() {
    
     const [categories, setCategories] = useState([])
     useEffect(() => {
@@ -20,7 +20,7 @@ function Categories(props) {
         <React.Fragment>
             
             <div className='panels'>
-                <div>{props.name}</div>
+                
             <div className='panelsTitle'>Categories : {categories.length}</div>
                 <div>
                     

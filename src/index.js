@@ -17,9 +17,12 @@ root.render(
     <Routes>
 
 <Route exact path='/' element={<Home/>} />
-<Route exact path='/products' element={<React.Fragment><Home/><AllProducts/></React.Fragment>} />
-      
-    </Routes> 
+
+<Route exact path='/products' element={<React.Fragment>
+  <Home/><AllProducts/>
+  </React.Fragment>} /> 
+
+</Routes> 
   </BrowserRouter>
 );
 

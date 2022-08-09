@@ -1,7 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import Categories from './Categories'
-
-import UsersIndex from './UsersIndex'
 
 function Users() {
    
