@@ -17,7 +17,7 @@ function LastUsers() {
 
     }
     /* console.log(users[users.length - 1]) */
-    const lastUser = [users[users.length - 1]];
+    const lastUser = [users[users.length]];
     
     return (
         <React.Fragment>
@@ -26,7 +26,8 @@ function LastUsers() {
                 <div>
                     
                     <ul>
-                        { <PanelLastUser  items = {lastUser}/>
+                        { 
+                            <PanelLastUser  items = {lastUser}/>
 
                         }
                     </ul>

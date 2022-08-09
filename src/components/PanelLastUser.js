@@ -2,13 +2,16 @@ import React from 'react'
 
 
 function PanelLastUser(props) {
+    const propsItems = props.items
   return (
     <React.Fragment>
     
         <ul>
-        {props.items.map(item =>
-        <div>Nombre: {item.name}</div>
-        )}
+        {propsItems.map(item=>
+
+        <div >
+        Nombre: {item.name}</div>
+          )}
          
    {/*  
     
