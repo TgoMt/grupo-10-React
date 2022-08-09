@@ -21,7 +21,7 @@ function TotalProducts(props) {
     return (
         <React.Fragment>
             <div className='panels'>
-            <a className='panelsTitle'>Productos : {products.total}</a>
+            <div className='panelsTitle'>Productos : {products.total}</div>
            
             </div>
         </React.Fragment>

@@ -33,16 +33,16 @@ function Home() {
 
             <Categories />
 
-            <Link to="/products" className='XXX'>
+            <Link to="/products">
               <TotalProducts />
             </Link>
-<<<<<<< HEAD
 
-            <Users />
-=======
-            
+
             <LastUser />
->>>>>>> fed81281c3e1b5a25313453bada607dfec060014
+
+            
+           
+
           </div>
         </body>
       </div>
