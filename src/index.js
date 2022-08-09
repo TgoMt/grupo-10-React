@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import {BrowserRouter,Route,Routes} from "react-router-dom"
 
 import AllProducts from './components/AllProducts';
+import PanelsLoose from './components/PanelsLoose';
 
 
 
@@ -16,10 +17,13 @@ root.render(
     {/* Link /products nos va a cargar productos */}
     <Routes>
 
-<Route exact path='/' element={<Home/>} />
-<Route exact path='/products' element={<React.Fragment><Home/><AllProducts/></React.Fragment>} />
-      
-    </Routes> 
+<Route exact path='/' element={<React.Fragment><Home/><PanelsLoose/></React.Fragment>} />
+
+<Route exact path='/products' element={<React.Fragment>
+  <Home/><AllProducts/>
+  </React.Fragment>} /> 
+
+</Routes> 
   </BrowserRouter>
 );
 

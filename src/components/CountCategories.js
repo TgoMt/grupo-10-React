@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
-
-function Categories() {
+import PanelCountCategories from './PanelCountCategories'
+function CountCategories() {
    
     const [categories, setCategories] = useState([])
     useEffect(() => {
@@ -21,15 +21,14 @@ function Categories() {
             
             <div className='panels'>
                 
-            <div className='panelsTitle'>Categories : {categories.length}</div>
-                <div>
+            <div className='panelsTitle'>Categorias :
                     
                     <ul>
-                        {/* {
-                            users.map((item, i) => {
-                                return <li><Categories {...item} key={i}/></li>
+                        {
+                            categories.map((item, i) => {
+                                return <li><PanelCountCategories {...item} key={i}/></li>
                             })
-                        } */}
+                        }
                     </ul>
                 </div>
             </div>
@@ -37,7 +36,7 @@ function Categories() {
     )
 }
 
-export default Categories
+export default CountCategories
     
     
     

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import "../assets/css/Home.css";
 
 
 function TotalProducts(props) {
@@ -21,17 +22,7 @@ function TotalProducts(props) {
         <React.Fragment>
             <div className='panels'>
             <div className='panelsTitle'>Productos : {products.total}</div>
-            <div>{props.name}</div>
-                <div>
-                    
-                    <ul>
-                        {/* {
-                            products.map((item, i) => {
-                                return <li><Categories {...item} key={i}/></li>
-                            })
-                        } */}
-                    </ul>
-                </div>
+           
             </div>
         </React.Fragment>
     )

@@ -1,32 +1,18 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 
 function PanelLastUser(props) {
-    const propsItems = props.items
   return (
     <React.Fragment>
     
-        <ul>
-        {propsItems.map(item=>
+        <li>{props.name}</li>
+        <li> {props.lastname}</li>
+        <li> {props.email}</li>
+        <li>{props.dni}</li>
+      <li>{props.imagen}</li>
 
-        <div >
-        Nombre: {item.name}</div>
-          )}
-         
-   {/*  
-    
-    <div>Precio: {props.price}</div>
-    
-   
-    <div>Descuento: {props.discount}</div>
-    
-   
-    <div>Descripcion: {props.description}</div>
-    
-    
-    <div>Detalle: {props.detail}</div> */}
-    </ul>
-    </React.Fragment>
+    </React.Fragment> 
 
   )
 }

@@ -3,9 +3,11 @@ import Header from './Header';
 import TotalProducts from './TotalProducts';
 import Categories from './Categories';
 import LastUser from './LastUser';
-
+import LastProduct from './LastProduct';
 import "../assets/css/Home.css";
-import { Link, Routes, Route } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import CountCategories from './CountCategories';
+import TotalUsers from './TotalUsers';
 
 
 
@@ -18,32 +20,41 @@ function Home() {
 
   return (
     <React.Fragment>
-      <div className="Home">
+      <div className="home">
         <header>
-          <div className='logo'>
+
+
+          <Link to="/">
             <Header />
-          </div>
+          </Link>
+
         </header>
 
         <body>
           <div className='panels'>
-            
+
             <Categories />
 
             <Link to="/products">
-              <TotalProducts/>
+              <TotalProducts />
             </Link>
+
+
+            <TotalUsers />
+
             
-            <LastUser />
+           
+
           </div>
+
         </body>
       </div>
 
 
-      
+
 
     </React.Fragment>
-    
+
   );
 }
 
