@@ -2,11 +2,8 @@ import React, { useEffect } from 'react';
 import Header from './Header';
 import TotalProducts from './TotalProducts';
 import Categories from './Categories';
-import LastUser from './LastUser';
-import LastProduct from './LastProduct';
 import "../assets/css/Home.css";
 import { Link } from 'react-router-dom';
-import CountCategories from './CountCategories';
 import TotalUsers from './TotalUsers';
 
 

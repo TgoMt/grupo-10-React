@@ -4,7 +4,7 @@ import './index.css';
 import Home from './components/Home';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter,Route,Routes} from "react-router-dom"
-
+import Error404 from './components/Error404';
 import AllProducts from './components/AllProducts';
 import PanelsLoose from './components/PanelsLoose';
 
@@ -22,7 +22,7 @@ root.render(
 <Route exact path='/products' element={<React.Fragment>
   <Home/><AllProducts/>
   </React.Fragment>} /> 
-
+  <Route path= "*" element={<Error404 />}/>
 </Routes> 
   </BrowserRouter>
 );
