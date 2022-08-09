@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react'
+import PanelLastUser from './PanelLastUser'
 
 function LastUsers() {
-   
+
     const [users, setUsers] = useState([])
     useEffect(() => {
         getDataUsers()
@@ -13,24 +14,33 @@ function LastUsers() {
         const users = await apiUsers.json()
         setUsers(users.data)//ACA LLAMAMOS A DATA SI ES QUE QUEREMOS INGRESAR A LA DATA !IMPORTANTE¡, en este caso queremos ingresar al total
         /* console.log(users.data) */
-        
+
+
     }
-    /* let x = users[users.length-1]
-    console.log(x) */
+
+    const lastUser = [users[users.length - 1]];
 
     return (
         <React.Fragment>
             <div className='panels'>
-            <div className='panelsTitle'>Ultimo usuario :   </div>
-            
+{/* {console.log(lastUser)} */}
+
+
+
+                <div className='panelsTitle'>Ultimo usuario :  </div>
+
                 <div>
-                    
+
                     <ul>
-                        {/* {
-                            users.map((item, i) => {
-                                return <li><Categories {...item} key={i}/></li>
+                        {
+
+                             
+                            lastUser.map((item, i) => {
+                                return <li><PanelLastUser {...item} key={i}/></li>
                             })
-                        } */}
+                        
+
+                        }
                     </ul>
                 </div>
             </div>
