@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import Header from './Header';
 import TotalProducts from './TotalProducts';
 import Categories from './Categories';
-import Users from './Users';
+import LastUser from './LastUser';
 
 import "../assets/css/Home.css";
 import { Link, Routes, Route } from 'react-router-dom';
@@ -34,7 +34,7 @@ function Home() {
               <TotalProducts/>
             </Link>
             
-            <Users />
+            <LastUser />
           </div>
         </body>
       </div>
