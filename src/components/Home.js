@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import Header from './Header';
 import TotalProducts from './TotalProducts';
 import Categories from './Categories';
-import Users from './Users';
+import LastUser from './LastUser';
 
 import "../assets/css/Home.css";
 import { Link } from 'react-router-dom';
@@ -36,8 +36,13 @@ function Home() {
             <Link to="/products" className='XXX'>
               <TotalProducts />
             </Link>
+<<<<<<< HEAD
 
             <Users />
+=======
+            
+            <LastUser />
+>>>>>>> fed81281c3e1b5a25313453bada607dfec060014
           </div>
         </body>
       </div>
