@@ -29,7 +29,7 @@ function LastUsers() {
 
 
 
-                <div className='panelsTitle'>Último Usuario:
+                <div className='panelsTitleLastUser'>Último Usuario:
                     <ul>
 
                         {

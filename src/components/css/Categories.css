@@ -1,0 +1,16 @@
+.panelsTitleCategories{
+    background-color: pink;
+    border: none;
+    width: 100%;
+    padding-left: 10px;
+}
+
+.panelsTitle{
+    width: 200px;
+    height: 35px;
+    text-align: center;
+    padding-top: 10px;
+    background-color: whitesmoke;
+    border: 2px solid gray;
+    font-weight: bold;
+}

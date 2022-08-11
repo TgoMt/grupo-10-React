@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import PanelLastProduct from './PanelLastProduct'
+import './css/LastProduct.css'
 
 function LastProduct() {
    
@@ -22,7 +23,7 @@ function LastProduct() {
         <React.Fragment>
             
            
-                <div className='panelsTitle'>Último Producto:
+                <div className='panelsTitleLastProduct'>Último Producto:
                     
                     <ul>
                         {

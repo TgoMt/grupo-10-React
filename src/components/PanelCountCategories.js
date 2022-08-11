@@ -6,7 +6,7 @@ function PanelCountCategories(props) {
   return (
     <React.Fragment>
     
-        <li>{props.category}: {props.Conteo}</li>
+        <li>{props.category}: {props.Conteo} </li>
 
     </React.Fragment> 
 
