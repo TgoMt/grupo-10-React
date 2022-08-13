@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from "../assets/image/logo_duende.png"
-import "./css/LastProduct.css"
+import "../assets/css/LastProduct.css"
 
 function Header() {
   return (

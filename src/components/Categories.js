@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import './css/Categories.css'
+import '../assets/css/Categories.css'
 
 function Categories() {
    

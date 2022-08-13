@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import PanelLastUser from './PanelLastUser'
-import "../components/css/LastUser.css"
+import "../assets/css/LastUser.css"
 
 function LastUsers() {
 

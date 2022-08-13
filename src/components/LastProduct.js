@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import PanelLastProduct from './PanelLastProduct'
-import './css/LastProduct.css'
+import '../assets/css/LastProduct.css'
 
 function LastProduct() {
    

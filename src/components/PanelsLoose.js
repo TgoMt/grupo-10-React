@@ -2,7 +2,7 @@ import React from 'react'
 import CountCategories from './CountCategories'
 import LastProduct from './LastProduct'
 import LastUser from './LastUser'
-import "./css/LastProduct.css"
+import "../assets/css/LastProduct.css"
 
 const PanelsLoose = () => {
   return (

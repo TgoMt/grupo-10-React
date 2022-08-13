@@ -1,5 +1,5 @@
 import React from 'react'
-import "../components/css/Products.css"
+import "../assets/css/Products.css"
 
 function Products(props) {
   return (
