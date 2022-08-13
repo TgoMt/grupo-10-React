@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import './css/Categories.css'
 
 function Categories() {
    
@@ -21,7 +22,7 @@ function Categories() {
             
             <div className='panels'>
                 
-            <div className='panelsTitle'>Categories : {categories.length}</div>
+            <div className='panelsTitle'>Categories : {categories.length} </div>
                 <div>
                     
                     <ul>

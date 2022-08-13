@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import PanelLastUser from './PanelLastUser'
+import "../components/css/LastUser.css"
 
 function LastUsers() {
 
@@ -29,7 +30,7 @@ function LastUsers() {
 
 
 
-                <div className='panelsTitle'>Último Usuario:
+                <div className='panelsTitleLastUser'>Último Usuario:
                     <ul>
 
                         {

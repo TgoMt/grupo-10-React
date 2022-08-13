@@ -22,7 +22,7 @@ function CountCategories() {
             
             <div className='panels'>
                 
-            <div className='panelsTitle'>Categorias :
+            <div className='panelsTitleCategories'>Categorias :
                     
                     <ul>
                         {

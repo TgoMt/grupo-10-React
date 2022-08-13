@@ -1,0 +1,10 @@
+.panelsTitleLastUser{
+
+    text-anchor: middle;
+    background-color: rgb(14, 172, 119);
+    border: 1px solid rgb(8, 77, 59);
+    width: 80%;
+    margin-left: 10px;
+    margin-top: 20px;
+    box-shadow: 2px 2px 5px rgb(12, 12, 12);
+}
