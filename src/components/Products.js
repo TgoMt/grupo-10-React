@@ -1,11 +1,11 @@
 import React from 'react'
-
+import "../components/css/Products.css"
 
 function Products(props) {
   return (
     <React.Fragment>
     
-        <ul>
+        <ul className='products'>
          
     <div>Nombre: {props.name}</div>
     

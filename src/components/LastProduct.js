@@ -20,9 +20,9 @@ function LastProduct() {
 
     const lastProduct = [products[products.length - 1]];
     return (
-        <React.Fragment>
+        <React.Fragment >
             
-           
+           <div className='panelsLastProduct'>
                 <div className='panelsTitleLastProduct'>Último Producto:
                     
                     <ul>
@@ -33,6 +33,7 @@ function LastProduct() {
                         }
                     </ul>
                 </div>   
+                </div>
         </React.Fragment>
     )
 }

@@ -22,7 +22,7 @@ function AllProducts() {
         <React.Fragment>
             
            
-                <div>
+                <div className='panelsProducts'>
                     
                     <ul>
                         {

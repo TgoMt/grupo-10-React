@@ -1,12 +1,12 @@
 import React from 'react'
 import error from "../assets/image/error.gif"
-import background from "../assets/image/background.jpg"
+
 
 const Error404 = () => {
   return (
     <div class="not-found">
           <div>
-{/*       <img class= "backgrund" src={background} /> */}
+
         <p class="image" />
     <img class="gif" src={error} alt="gif"/>
 
