@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import PanelCountCategories from './PanelCountCategories'
+
 function CountCategories() {
    
     const [categories, setCategories] = useState([])
