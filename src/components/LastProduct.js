@@ -22,7 +22,7 @@ function LastProduct() {
     return (
         <React.Fragment >
             
-           <div className='panelsLastProduct'>
+            <div className='panels'>
                 <div className='panelsTitleLastProduct'>Último Producto:
                     
                     <ul>
