@@ -7,6 +7,7 @@ import {BrowserRouter,Route,Routes} from "react-router-dom"
 import Error404 from './components/Error404';
 import AllProducts from './components/AllProducts';
 import PanelsLoose from './components/PanelsLoose';
+import AllUsers from './components/AllUsers';
 
 
 
@@ -22,6 +23,10 @@ root.render(
 <Route exact path='/products' element={<React.Fragment>
   <Home/><AllProducts/>
   </React.Fragment>} /> 
+
+<Route exact path='/users' element={<React.Fragment><Home/><AllUsers/></React.Fragment>} />
+
+
   <Route path= "*" element={<Error404 />}/>
 </Routes> 
   </BrowserRouter>

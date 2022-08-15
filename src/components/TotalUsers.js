@@ -11,7 +11,7 @@ function TotalUsers() {
     const getDataUsers = async () => {
         const apiUsers = await fetch("api/users")
         const users = await apiUsers.json()
-        setUsers(users.total)//ACA LLAMAMOS A DATA SI ES QUE QUEREMOS INGRESAR A LA DATA !IMPORTANTE¡, en este caso queremos ingresar al total
+        setUsers(users)//ACA LLAMAMOS A DATA SI ES QUE QUEREMOS INGRESAR A LA DATA !IMPORTANTE¡, en este caso queremos ingresar al total
         /* console.log(users.data) */
 
     }
@@ -19,7 +19,7 @@ function TotalUsers() {
     return (
         <React.Fragment>
             <div className='panels'>
-            <div className='panelsTitle'>Usuarios : {users}</div>
+            <div className='panelsTitle'>Usuarios : {users.total}</div>
                 <div>
                     
                     <ul>

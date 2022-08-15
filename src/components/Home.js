@@ -36,9 +36,9 @@ function Home() {
               <TotalProducts />
             </Link>
 
-
+          <Link to="/users">
             <TotalUsers />
-
+            </Link>
             
            
 
